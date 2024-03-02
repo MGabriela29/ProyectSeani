@@ -37,9 +37,9 @@ class Question(models.Model):
 
 
 
-def __str__(self):
+    def __str__(self):
         return f"{ self.module}-{self.id}"
     
-class Meta: 
+    class Meta: 
         verbose_name ='pregunta'
         verbose_name_plural = 'preguntas'
